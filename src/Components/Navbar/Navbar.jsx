@@ -6,16 +6,16 @@ import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
-    <div className='flex flex-row justify-between bg-[#D4D4D4]  items-center'>
+    <div className='flex flex-row justify-between bg-[#F3F3F3] shadow-gray-300/80 items-center navbar'>
         <div className=''>
-            <button type='submit' className='ml-[67px] text-[25px] py-[8px]'><Link to="/">BLOCK START</Link></button>
+            <button type='submit' className='ml-[67px] text-[25px] py-[8px]'><Link to="/">CRYPTO CROWD</Link></button>
         </div>
         <div className=''>
             <ul className='flex items-center'>
                 <li className='px-8'><button className='hover:bg-[#5A5A5A] hover:text-white px-[10px] hover:rounded-[6px] hover:drop-shadow-xl'><Link to="/about">about</Link></button></li>
                 <li className='px-8'><button className='hover:bg-[#5A5A5A] hover:text-white px-[10px] hover:rounded-[6px] hover:drop-shadow-xl'><Link to="/create">create campaign</Link></button></li>
                 <li className='px-8'><button className='hover:bg-[#5A5A5A] hover:text-white px-[10px] hover:rounded-[6px] hover:drop-shadow-xl'>connect wallet</button></li>
-                <li className='px-5'><FontAwesomeIcon icon={faBars} /></li>
+                <li className='px-5 cursor-pointer'><FontAwesomeIcon icon={faBars} /></li>
             </ul>
         </div>
     </div>

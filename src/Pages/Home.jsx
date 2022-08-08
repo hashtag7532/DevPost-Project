@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from "../Components/Navbar/Navbar";
+import AboutSection from "../Components/AboutSection/AboutSection";
+import Hero from "../Components/Hero/Hero";
 
 function Home() {
   return (
-    <div>
-        <Navbar />
+    <div className='bg-[#F3F3F3]'>
+      <Hero />
     </div>
   )
 }
