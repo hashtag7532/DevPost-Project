@@ -1,0 +1,42 @@
+.campaign-card {
+    /* background-color: aqua; */
+    width: 450px;
+  
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 1%;
+    /* filter: drop-shadow(10px 10px 10px #cfd1ce) */
+  }
+  
+  .campaign-image {
+    /* padding: 10px; */
+  
+    height: 342px;
+    width: 468px;
+    border-radius: 2%;
+    /* filter: drop-shadow(10px 10px 10px #a39d9d); */
+    /* background-color: black; */
+  }
+  
+  .description {
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-bottom: 45px;
+    /* padding: 10px; */
+  }
+  
+  .title {
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .key-words {
+    margin-left: 15px;
+    margin-right: 15px;
+  }

@@ -1,5 +1,5 @@
 import React from 'react'
-import pencil from "../../images/About_bg.jpeg";
+import pencil from "../../images/Bg.png";
 
 function Background() {
   return (

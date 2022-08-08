@@ -1,0 +1,6 @@
+.cardDiv {
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }

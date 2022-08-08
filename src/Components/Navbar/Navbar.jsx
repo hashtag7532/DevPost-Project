@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
-    <div className='flex flex-row justify-between bg-[#F3F3F3] shadow-gray-300/80 items-center navbar'>
+    <div className='flex flex-row justify-between bg-[#F3F3F3] shadow-sm  items-center'>
         <div className=''>
             <button type='submit' className='ml-[67px] text-[25px] py-[8px]'><Link to="/">CRYPTO CROWD</Link></button>
         </div>
